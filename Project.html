@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Online Courses</title>
+	<meta charset="utf-8">
+	<meta type="viewport" content="width=device-width initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="Project.css">
+	
+	
+</head>
+<body>
+
+	<div class="nav">
+		<img src="imgs/logo2.png" alt="Logo of Online Courses">
+		<ul type="none">
+			<li  style="float: right;" onclick="ok()"><a href="#sign up">Menu</a></li>
+		</ul>
+	</div>
+
+	<div class="sidebar" id="menu" style="visibility: hidden;">
+		<button onclick="cancel()">X</button>
+		<ul>
+			<h2 style="color: yellow;">BANIAZ SERVICES</h2>
+			<li><a href="#HOME">HOME</a></li>
+			<li><a href="#HOME">COURSES</a></li>
+			<li><a href="#HOME">About Us</a></li>
+			<li><a href="#HOME">Contact Us</a></li><br><br>
+
+			<input type="button" name="Sign up" value="Sign in">
+			<input type="button" name="Sign up" value="Sign up">
+		</ul>
+		
+	</div>
+
+
+	<div class="wel">
+		<h1 style="color: yellow;">Welcome to our Site</h1>
+		<p>In this site you will get a lot of online courses.<br> You can set your career from these courses.<br> </p><br><br>
+		<button>Read More ></button>
+	</div>
+
+	<div id="course">
+		<h1 style="text-align: center;">Courses</h1>
+		<hr style="width: 300px; color: gray;">
+
+		<div id="fl">
+		<div id="box1">
+			<img src="imgs/ec.png" width="280" height="210">
+			<h3>E-Commerce</h3>
+			<p>E-commerce is the activity of electronically buying or selling of products on online services or over the Internet.</p>
+			<button>Enroll Now</button>
+			
+		</div>
+
+			<div id="box2">
+			<img src="imgs/AAD.jpg" width="280" height="210">
+			<h3>Android Development</h3>
+			<p>Android software development is the process by which applications are created for devices running the Android operating system.</p>
+			<button>Enroll Now</button>
+			
+		</div>
+		
+		<div id="box3">
+			<img src="imgs/GD.jpg" width="280" height="210">
+			<h3>Graphic Design</h3>
+			<p>Graphic design is the art, profession and academic discipline whose activity consists in projecting visual communications intended to transmit specific messages to social groups, with specific objectives.</p>
+			<button>Enroll Now</button>
+			
+		</div>
+
+		<div id="box4">
+			<img src="imgs/s.png" width="280" height="210">
+			<h3>SEO</h3>
+			<p>Search engine optimization is the process of improving the quality and quantity of website traffic to a website or a web page from search engines.</p>
+			<button>Enroll Now</button>
+			
+		</div>
+
+		<div id="box5">
+			<img src="imgs/free.jpg" width="280" height="210">
+			<h3>Freelancing</h3>
+			<p>Freelance, freelancer, or freelance worker, are terms commonly used for a person who is self-employed and not necessarily committed to a particular employer long-term.</p>
+			<button>Enroll Now</button>
+			
+		</div>
+
+			<div id="box6">
+			<img src="imgs/dm.png" width="280" height="210">
+			<h3>Digital Marketing</h3>
+			<p>Digital marketing is the component of marketing that utilizes internet and online based digital technologies such as desktop computers, mobile phones and other digital media and platforms to promote products and services.</p>
+			<button>Enroll Now</button>
+			
+		</div>
+
+		</div>
+	</div>	
+
+	<div id="about">
+		<div id="ab">
+			<h1>About Us</h1>
+			<p >Baniaz services is online platform which provide online courses<br>Keep learn and earn with us.</p>
+			<button>Read more</button>
+		</div>
+	</div>
+
+		<div id="contactus">
+		<h2>CONTACT US</h2>
+		<p>If you have any question you may ask with the help of this form.</p><br>
+		<form>
+			<label>Name:</label><br><br>
+			<input type="text" name="name" required><b><br><br>
+
+			<label >Email:</label><br><br>
+			<input type="email" name="name" required><br><br><br>
+
+			<label >Country:</label><br><br>
+			<input type="text" name="name"><br><br><br>
+
+
+			<label>Message:</label><br><br>
+			<textarea ></textarea><br><br><br>
+
+			<input type="button" name="submit" value="submit">
+
+		</form>
+		</div>
+
+		<div id="footer">
+			<h3>Baniaz Services</h3>
+			<br>
+			<p>Copyight@ 2021, All rights reserved | Made by Noor Ahmed</p>
+
+
+
+		</div>
+
+
+<script>
+		function ok(){
+			document.getElementById("menu").style="visibility: none;";
+		}
+
+		function cancel(){
+			document.getElementById("menu").style="visibility:hidden;";	
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,320 @@
+body{
+	font-family: Tahoma, Verdana, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-image: url("imgs/head.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.nav{
+	background-color: transparent;
+	color: white;
+}
+.nav img{
+	float: left;
+	border: 2px solid black;
+	border-radius: 50%;
+	height: 30px;
+	width: 33px;
+	margin: 5px 10px 5px 15px;
+	text-align: center;
+}
+.nav ul{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: transparent;
+}
+.nav li{
+	float: left;
+}
+.nav li a{
+	display: block;
+	padding: 14px 16px;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+}
+
+.sidebar{
+	padding: 20px;
+	text-align: left;
+	width: auto;
+	border: 1px solid black;
+	border-radius: 2px;
+	background-color: rgba(60,70,80,0.9);
+	position: fixed;
+	height: 600px;
+}
+.sidebar button{
+	float: right;
+	width: 30px;
+	height: 20px;
+	color: black;
+}
+.sidebar button:hover{
+	background-color: yellow;
+	color: red;
+}
+.sidebar ul{
+	list-style-type: none;
+	margin-left: 0;
+}
+.sidebar li{
+	margin-top: 20px;
+
+}
+.sidebar li a{
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: bold;
+	color: white;
+	margin-right: 60px;
+	letter-spacing: 3px;
+
+}
+.sidebar li a:hover{
+	display: block;
+	text-decoration: none;
+	border-bottom: 1px solid yellow;
+	
+}
+.sidebar input[type="button"]{
+	background-color: transparent;
+	color:white;
+	border: 1px solid black;
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: 15px;
+	padding: 5px 20px 5px 20px;
+
+}
+.sidebar input[type="button"]:hover{
+	transition: 2s;
+	background-color: #111;
+	color: yellow;
+
+}
+
+
+
+
+.wel{
+	margin-top: 160px;
+	text-align: center;
+	color: white;
+}
+.wel h1{
+	font-weight: bold;
+	font-size: 50px;
+	letter-spacing: 4px;
+}
+.wel p{
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+.wel button{
+	border: 2px solid white;
+	border-radius: 15px;
+	width: 150px;
+	height: 45px;
+	font-weight: bold;
+	background-color: transparent;
+	color: white;
+}
+.wel button:hover{
+	background-color: #111;
+	color: yellow;
+	transition: 2s;
+	border: 2px solid yellow;
+}
+
+#course{
+	background-color: white;
+	margin-top: 200px;
+	padding: 0;
+	color: black;
+	height: auto;
+	width: auto;
+	overflow: hidden;
+}
+#fl{
+	width: auto;
+	display: flex;
+	overflow: auto;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	margin-right: 5px;
+	transition: 2s;
+}
+#fl p{
+	padding: 20px;
+	text-align: left;
+}
+#fl button{
+	border: 2px solid black;
+	border-radius: 5px;
+	color: black;
+	background-color: transparent;
+	font-weight: bold;
+	font-size: 15px;
+	width: 140px;
+	height: 40px
+
+}
+#fl button:hover{
+	transition: 2s;
+	background-color: yellow;
+	color: red;
+}
+#fl::-webkit-scrollbar{
+	width: 10;
+}
+
+#box1{
+	width: auto;
+	text-align: center;
+	margin: 20px;
+	border: 2px solid black;
+	scroll-behavior: smooth;
+	padding-bottom: 10px;
+	box-shadow: 1px	1px 10px black;
+}
+#box2{
+	text-align: center;
+	margin: 20px;	
+	border: 2px solid black;
+	padding-bottom: 10px;
+	box-shadow: 1px	1px 10px black;
+}
+
+#box3{
+	text-align: center;
+	margin: 20px;
+	border: 2px solid black;
+	padding-bottom: 10px;
+	box-shadow: 1px	1px 10px black;
+}
+#box4{
+	text-align: center;
+	margin: 20px;
+	border: 2px solid black;
+	padding-bottom: 10px;
+	box-shadow: 1px	1px 10px black;
+}
+
+#box5{
+	text-align: center;
+	margin: 20px;	
+	border: 2px solid black;
+	padding-bottom: 10px;
+	box-shadow: 1px	1px 10px black;
+}
+#box6{
+	text-align: center;
+	margin: 20px;
+	border: 2px solid black;
+	padding-bottom: 10px;
+	box-shadow: 1px	1px 10px black;
+}
+
+#about{
+
+	background-image: url("imgs/4.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-color: black;
+	opacity: 0.9;
+	height: auto;
+
+
+}
+#ab {
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+#ab h1{
+	letter-spacing: 2px;
+	color: yellow; 
+	font-weight: bolder; 
+	font-size: 30px"
+}
+#ab p{
+	color: black;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+#ab button{
+	border: 2px solid white;
+	border-radius: 15px;
+	width: 150px;
+	height: 45px;
+	font-weight: bold;
+	
+	color: black;
+}
+#ab button:hover{
+	background-color: #111;
+	color: yellow;
+	transition: 2s;
+	border: 2px solid yellow;
+}
+
+#contactus{
+	padding-top: 50px;
+	text-align: center;
+	background-color: white;
+}
+
+#contactus h2{
+	color: blue;
+	text-align: center;
+	text-shadow: 1px 1px 50px green;
+}
+#contactus label{
+	text-align: center;
+	color: black;
+	font-weight: bold;
+}
+#contactus input[type="text"],input[type="email"]{
+	border: 2px solid black;
+	border-radius: 5px;
+	font-weight: bold;
+	width: 250px;
+	height: 25px;
+	box-shadow: 1px 1px 15px black;	
+}
+#contactus textarea{
+	border: 2px solid black;
+	border-radius: 5px;
+	font-weight: bold;
+	width: 250px;
+	height: 50px;
+	box-shadow: 1px 1px 15px black;	
+}
+#contactus input[type="button"]{
+	background-color: yellow;
+	color: red;
+	box-shadow: 1px 1px 15px black;
+	width: 250px;
+	height: 35px;
+	font-weight: bold;
+	margin-bottom: 60px;
+}
+#contactus input[type="button"]:hover{
+	background-color: red;
+	border-radius: 5px;
+	color: yellow;
+	transition: 2s;
+
+}
+#footer{
+	padding: 20px;
+	text-align: center;
+	background-color: black;
+	color: white;
+}
